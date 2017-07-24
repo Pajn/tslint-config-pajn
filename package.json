@@ -1,0 +1,15 @@
+{
+  "name": "tslint-config-pajn",
+  "version": "1.0.0",
+  "description": "An opinionated tslint config to use together with prettier",
+  "main": "index.js",
+  "repository": "Pajn/tslint-config-pajn",
+  "author": "Rasmus Eneman <rasmus@eneman.eu>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  },
+  "scripts": {
+    "format": "prettier --write --single-quote --trailing-comma es5 --no-bracket-spacing --no-semi src/**/*.{js,jsx,ts,tsx}"
+  }
+}
